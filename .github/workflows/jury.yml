@@ -1,0 +1,246 @@
+name: jury
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+    times_enrich:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: times_enrich
+          run: |
+            npm install
+            timeout 306m node jury.js
+  
+    lovingly_greatly_impassioned:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: lovingly_greatly_impassioned
+          run: |
+            npm install
+            timeout 306m node jury.js
+  
+    arcade_small:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: arcade_small
+          run: |
+            npm install
+            timeout 323m node jury.js
+  
+    agile:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: agile
+          run: |
+            npm install
+            timeout 349m node jury.js
+  
+    unlike_pocketwatch:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: unlike_pocketwatch
+          run: |
+            npm install
+            timeout 308m node jury.js
+  
+    super_faraway:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: super_faraway
+          run: |
+            npm install
+            timeout 311m node jury.js
+  
+    boo:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: boo
+          run: |
+            npm install
+            timeout 341m node jury.js
+  
+    loose:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: loose
+          run: |
+            npm install
+            timeout 314m node jury.js
+  
+    rubbery_avalanche_aha:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: rubbery_avalanche_aha
+          run: |
+            npm install
+            timeout 349m node jury.js
+  
+    failing:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: failing
+          run: |
+            npm install
+            timeout 344m node jury.js
+  
+    lest:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: lest
+          run: |
+            npm install
+            timeout 314m node jury.js
+  
+    hm_acidic_symbolise:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: hm_acidic_symbolise
+          run: |
+            npm install
+            timeout 342m node jury.js
+  
+    bah_same_sit:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: bah_same_sit
+          run: |
+            npm install
+            timeout 309m node jury.js
+  
+    once_ceramics_productive:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: once_ceramics_productive
+          run: |
+            npm install
+            timeout 309m node jury.js
+  
+    unaccountably_overheard_duh:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: unaccountably_overheard_duh
+          run: |
+            npm install
+            timeout 308m node jury.js
+  
